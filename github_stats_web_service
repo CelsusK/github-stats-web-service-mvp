@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .header, .footer { background-color: #333; color: #fff; text-align: center; padding: 1rem; }
+        .hero { background: url('hero-image.jpg') no-repeat center center; color: #fff; padding: 3rem; text-align: center; }
+        .content { padding: 2rem; }
+        .cta { display: flex; justify-content: center; gap: 1rem; }
+        .cta a { text-decoration: none; color: #fff; background-color: #007BFF; padding: 0.5rem 1rem; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Portfolio Project</h1>
+        <nav>
+            <a href="#about">About</a> | <a href="#me">About Me</a> | <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <h2>Your Catchy Tagline</h2>
+        <p>Brief description of your project.</p>
+        <div class="cta">
+            <a href="https://your-deployed-app.com" target="_blank">View App</a>
+            <a href="https://github.com/your-repo" target="_blank">View on GitHub</a>
+        </div>
+    </div>
+
+    <div class="content" id="about">
+        <h3>About the Project</h3>
+        <p>Overview of the project, technologies used, and challenges faced.</p>
+    </div>
+
+    <div class="content" id="me">
+        <h3>About Me</h3>
+        <p>Introduction, story, and skills.</p>
+    </div>
+
+    <div class="footer">
+        <p>Contact: your.email@example.com | LinkedIn | Twitter</p>
+        <p>&copy; 2024 Your Name</p>
+    </div>
+</body>
+</html>
